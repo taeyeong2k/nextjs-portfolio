@@ -1,8 +1,9 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
+import { Anek_Bangla } from "@next/font/google";
 
 const socials = [
 	{
@@ -23,6 +24,13 @@ const socials = [
 		label: "Github",
 		handle: "taeyeong2k",
 	},
+	{
+		icon: <Linkedin size={20} />,
+		href: "https://www.linkedin.com/in/taeyeong-kim-616151198/",
+		label: "LinkedIn",
+		handle: "Tae Yeong Kim",
+
+	}
 ];
 
 export default function Example() {
