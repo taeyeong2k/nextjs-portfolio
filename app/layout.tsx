@@ -14,15 +14,8 @@ export const metadata: Metadata = {
 		title: "Tae's Portfolio Website",
 		description:
 			"Devops engineer at NAB and a student at the University of Melbourne.",
-		url: "https://taeyeong2k.com",
-		siteName: "taeyeong2k.com",
-		images: [
-			{
-				url: "https://taeyeong2k.com/og.png",
-				width: 1920,
-				height: 1080,
-			},
-		],
+		url: "nextjs-portfolio-taetae.vercel.app",
+		siteName: "nextjs-portfolio-taetae.vercel.app",
 		locale: "en-US",
 		type: "website",
 	},
