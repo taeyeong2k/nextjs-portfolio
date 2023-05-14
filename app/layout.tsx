@@ -13,9 +13,16 @@ export const metadata: Metadata = {
 	openGraph: {
 		title: "Tae's Portfolio Website",
 		description:
-			"Devops engineer at NAB and a student at the University of Melbourne.",
-		url: "nextjs-portfolio-taetae.vercel.app",
-		siteName: "nextjs-portfolio-taetae.vercel.app",
+			"Devops engineer at NAB and a student at the University of Melbourne",
+		url: "https://chronark.com",
+		siteName: "chronark.com",
+		images: [
+			{
+				url: "https://chronark.com/og.png",
+				width: 1920,
+				height: 1080,
+			},
+		],
 		locale: "en-US",
 		type: "website",
 	},
