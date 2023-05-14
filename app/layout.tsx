@@ -6,19 +6,19 @@ import { Analytics } from "./components/analytics";
 
 export const metadata: Metadata = {
 	title: {
-		default: "chronark.com",
-		template: "%s | chronark.com",
+		default: "Tae's Portfolio Website",
+		template: "%s | Tae's Portfolio Website",
 	},
-	description: "Software engineer at upstash.com and founder of planetfall.io",
+	description: "Devops engineer at NAB and a student at the University of Melbourne.",
 	openGraph: {
-		title: "chronark.com",
+		title: "Tae's Portfolio Website",
 		description:
-			"Software engineer at upstash.com and founder of planetfall.io",
-		url: "https://chronark.com",
-		siteName: "chronark.com",
+			"Devops engineer at NAB and a student at the University of Melbourne.",
+		url: "https://taeyeong2k.com",
+		siteName: "taeyeong2k.com",
 		images: [
 			{
-				url: "https://chronark.com/og.png",
+				url: "https://taeyeong2k.com/og.png",
 				width: 1920,
 				height: 1080,
 			},
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
 		},
 	},
 	twitter: {
-		title: "Chronark",
+		title: "taeyeong2000",
 		card: "summary_large_image",
 	},
 	icons: {
